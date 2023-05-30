@@ -16,6 +16,8 @@ I ended up with this lineup:
 
 ### Part List
 
+Disclaimer: These are amazon affiliate links. If you want to support my completely healthy homelab habit, consider using them if this guide helped you and you want any of the components.
+
 * CPU: [Ryzen 9 5950X](https://www.amazon.com/dp/B0815Y8J9N?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=joshdotcafe0e-20&linkCode=ur2&linkId=cb1ece1208b93d8d56687a75e64118fa&camp=1789&creative=9325)
 * RAM: 4x [Kingston DDR4 ECC 32GB](https://www.amazon.com/dp/B09N9TQ3B3?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=joshdotcafe0e-20&linkCode=ur2&linkId=e8de63d259d3af88b017708ee3854a02&camp=1789&creative=9325)
 * Motherboard: [ASUS X570-Plus (Wi-Fi)](https://www.amazon.com/dp/B07SXF8GY3?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details&_encoding=UTF8&tag=joshdotcafe0e-20&linkCode=ur2&linkId=f4f4e84fde928c4ba1eb4beb67e797b7&camp=1789&creative=9325)
