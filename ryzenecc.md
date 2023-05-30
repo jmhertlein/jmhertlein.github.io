@@ -3,12 +3,12 @@
 I built a new home server recently, with the following goals:
 
 1. ECC memory
-2. Cost efficient (though not cheap)
+2. Cost efficient (though admittedly not cheap)
 3. 8 sATA ports on the motherboard
 
 This ended up being a "pick two" kind of scenario, though I eventually ended up with something I was happy with. The biggest problem was combining 1 and 3 ended up with just a handful of boards to choose from. 
 
-The thing I was most concerned about beforehand was 1. Prior to the Ryzen processors, ECC was primarily used as a feature for market segmentation, and was intended for the kinds of CPUs and boards where the normal customer was an enterprise buying tens or hundreds of servers, and they were fully loading them to where the cost of the chips and pretty much every other component was dwarfed by the cost of the hard drives and (to a lesser extent) RAM. It was just totally cost-ineffective for a homelabber to buy one of these machines just to throw a measly 16/32GB of ram and a few TBs of disk space at them (when they are priced for the kind of customer who is putting 750GB of RAM and ~200TB of storage in them.)
+The thing I was most concerned about beforehand was 1. Prior to the Ryzen processors, ECC was primarily used as a feature for Intel to do market segmentation, and was intended for the kinds of CPUs and boards where the normal customer was an enterprise buying tens or hundreds of servers, and they were fully loading them to where the cost of the chips and pretty much every other component was dwarfed by the cost of the hard drives and (to a lesser extent) RAM. It was just totally cost-ineffective for a homelabber to buy one of these machines just to throw a measly 16/32GB of ram and a few TBs of disk space at them (when they are priced for the kind of customer who is putting 750GB of RAM and ~200TB of storage in them.)
 
 In a post-ryzen world, ECC becomes less of a pipe dream and more of an exercise in caution. With the standard Ryzen lineup, ECC support isn't advertised at all, and motherboards are cagey about saying whether ECC will be supported in your setup. ECC RAM itself is also kind of hard to come by on Amazon. 
 
@@ -31,9 +31,9 @@ I ended up with this lineup:
 
 * The X570-Plus does NOT boot without either integrated graphics on the CPU or a discrete GPU in the first PCIe slot. I had found some post on Reddit suggesting otherwise, but they were incorrect. So at least some kind of GPU is required.
 * I picked the 3060Ti because it was right in the sweet spot of performance per dollar. If this were going to play video games I would have gone for a beefier card, but if the only difference a thousand dollars gets me is that stable diffusion will run like *maybe* 2x faster, well, that's a bit less compelling for me, especially since the 3060Ti is still 2-3x faster than the GTX 1080 I spend a grand on in 2017ish. Also GPU prices are still stupid right now and are further driven up by limited supply for the RTX 4000 series cards. 
-* I just do shelf rails for these Rosewill cases. They make sliding rails for them but I won't even affiliate link to them because they suck. I would put these on an IKEA shelf before I bothered with non-Dell rails again. 
+* I just do shelf rails for these Rosewill cases. They make sliding rails for them but I won't even affiliate link to them because they are awful. I would put these on an IKEA shelf before I bothered with non-Dell rails again. 
 * You don't need to connect the RGB cords on the cooler. I just picked this one because it was a 240mm closed-loop that was in-stock at a decent price. 
-* I did not want to use an HBA if I could help it, hence the 8x sATA ports. I've done the whole "buy a dubiously sourced LSI card off amazon and then flash IT mode firmware on it" and I would rather just buy enough sATA ports to get me through to the next time either intel or AMD decide to release an interesting processor line. 
+* I did not want to use an HBA if I could help it, hence the 8x sATA ports. I've done the whole "buy a dubiously sourced LSI card off amazon and then flash IT mode firmware on it" and I would rather just buy enough sATA ports to get me through to the next time intel or AMD decide to release an interesting processor line. 
 * We're right on the cusp of DDR5 and Ryzen 7xxx processors. I decided to take advantage of the fact that the Ryzen 5xxx processors were actually in stock at a competitive price, and the fact that ECC DDR4 RAM actually exists (I couldn't find a single listing for DDR5 ECC RAM).
 
 ### Things I would consider changing if I did it over again:
